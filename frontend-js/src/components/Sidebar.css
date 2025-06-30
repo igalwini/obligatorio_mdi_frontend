@@ -1,0 +1,20 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #000;
+}
+
+.sidebar-item.active {
+  background-color: #007BFF;
+  color: #fff;
+}
