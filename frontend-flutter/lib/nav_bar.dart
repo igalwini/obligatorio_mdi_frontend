@@ -6,7 +6,8 @@ class NavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final location = GoRouter.of(context).location;
+    // Usar ModalRoute para obtener la ruta actual de forma compatible
+    final location = ModalRoute.of(context)?.settings.name ?? '/';
 
     return Container(
       color: Colors.white,
