@@ -1,0 +1,6 @@
+# Node
+frontend-js/node_modules/
+
+# Flutter
+frontend-flutter/build/
+frontend-flutter/.dart_tool/
